@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>année</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <% @infos.each do |info| %>
+    </tr>
+      <td><%= info.title %></td>
+      <td><%= info.release_date %></td>
+      <% end %>
+
+  </tbody>
+
+</table>

@@ -1,0 +1,5 @@
+<%= form_tag("/search", method: :get) do %>
+  <%= label_tag(:recherche, "Alors quel sera ton film ?") %>
+  <%= text_field_tag(:recherche) %>
+  <%= submit_tag("Go!") %>
+<% end %>

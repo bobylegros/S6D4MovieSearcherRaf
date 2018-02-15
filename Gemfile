@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # authentification
 # gem 'devise'
 #gem 'pundit'
-
+gem 'themoviedb-api'
 gem 'dotenv'
 gem 'rails'
 gem 'puma'
